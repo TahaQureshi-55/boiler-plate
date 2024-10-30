@@ -13,11 +13,11 @@ export default function ButtonComp({ btnLabel, btnHandler }: ButtonCompType) {
           backgroundColor: "#4267B2",
           color: "white",
           border: "none",
-          borderRadius: "5px",
+          borderRadius: "15px",
           padding: "5px 12px",
           fontSize: "16px",
           cursor: "pointer",
-          transition: "background-color 0.3s ease",
+          transition: "background-color 0.9s ease",
         }}
       >
         {btnLabel}

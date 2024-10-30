@@ -13,23 +13,29 @@ export default function LoginUserFunc() {
   const [password, setPassword] = useState("");
   return (
     <>
-      <h1>Sign Up Here</h1>
+    <div className=" font-serif mt-20 ">
+    
+
+      <h1 className=" text-center mt-28 font-bold text-2xl">SIGN UP HERE  </h1>  
+  <div className="text-center mt-8">
+
       <label htmlFor="email">Email:</label>
       <input
         type="email"
         id="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-      />
+        />
       <br />
       <br />
       <label htmlFor="password">Password:</label>
       <input
+      
         type="password"
         id="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
-      />
+        />
       <br />
       <br />
       <ButtonComp
@@ -39,8 +45,16 @@ export default function LoginUserFunc() {
         }}
       />
       <p>
-        <Link href={"/"}>Sign in</Link> If you have an account.
+        <Link href={"/"}>Log in</Link> 'If you have an account.
       </p>
+
+
+
+
+
+
+        </div>
+        </div>
     </>
   );
 }
